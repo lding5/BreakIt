@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	console.log("index.js load");
-  $("#navigationBar").load("../navbar.html");
+  console.log("index.js load");
+  $("#navigationBar").load("navbar.html");
 
 });
