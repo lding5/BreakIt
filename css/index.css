@@ -1,0 +1,11 @@
+.smallImg{
+	height:25px;
+}
+.jumboImg{
+	height:100px;
+	float:left;
+}
+.hackIntro{
+	position: relative;
+	left: 15px;
+}
