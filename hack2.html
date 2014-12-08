@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="LDing">
+    <link rel="icon" href="img/sandbox.jpg">
+
+    <title>WeekHack</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div id="navigationBar"></div>
+
+      <div class="jumbotron">
+        <p>Week 2 - 30 Nov, 2014</p>
+        <img src="img/mrsKanga.jpg" alt="Mrs. Kanga" class="jumboImg"/>
+        <div class="hackIntro">
+          <p>Mrs. Kanga</p>
+          <p>Java MVC, Swing components</p>
+          <p>Java</p>
+        </div>
+      </div>
+
+      <h3>Concept:</h3>
+      <p><a href="hack1.html">Last week</a>, I <p>
+
+
+      <h3>Product:</h3>
+      <p>Story: There is a pot of honey, and there are honey eaters who eat at different speeds and nap at different lengths after they eat. This program models what happens (who eats when) and also who ate the last bit of honey from the honey jar.
+
+      <h3>Demo:</h3>
+    <video id="sampleMovie" src="hack2Demo.mov" class="demoVideo" preload controls></video>
+
+      <h3>Tech Specs:</h3>
+      <ul>
+        <li>All code written in Java, emphasis on Threads, Runnable interfaces</li>
+        <li>File input:
+          <ul>
+            <li>int = how much honey is in the pot at the beginning</li>
+            <li>list of honey eaters specifications: name, eating pace, naping duration</li>
+          </ul>
+        </li>
+        <li>Console output</li>
+        <li>Each honey eater is it's own separate Java thread.</li>
+      </ul>
+
+      <h3>Thoughts:</h3>
+      <p>Threads are tricky and it took me a while to get it sorted out, hence the result is only a console output, rather than something fancier. I learn how to manage multiple threads, make sure when I want them to be sharing the same resource or not (took me a while to figure out how all the different threads can share the same honey pot), how to sleep them, and the various pitfalls I might encounter.</p>
+
+      <p>I am glad I worked on this topic though, because I am now more comfortable with the different concepts and terminologies associated with threads.</p>
+
+      <p>I also learned more about my own learning style. This past week, I found myself more at ease when I can go through an example to start me off, jump right in on my own code for a bit, go back and read more tutorial/ references, then back at the code. However, often times, I find myself caught reading too indepth in that 2nd reading session, because I just wanted to "know it all" before tackling on this subject so that I don't make a simple mistake that could be easily avoided. But for these projects, the purpose is realy to spit some product out quickly, thus, forcing me to learn as much as I can in a short amount of time. So I need to trying and cut down the amount of safety net reading, and try this other way of learning. 
+
+      <h3>Future/ if-I-have-more-time:</h3>
+      <ul>
+        <li>Add a UI to it. 
+        <li>Add a java web framework to it! (project for this upcoming week!)</li>
+      </ul>
+
+      <br>
+      <p>ps. Why Winnie the Pooh? Because it's honey!</p>
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
