@@ -1,0 +1,14 @@
+.jumboImg{
+	height:100px;
+	float:left;
+}
+.hackIntro{
+	text-align: center;
+	height:120px;
+}
+#date{
+	text-align: center;
+}
+.jumbotron p {
+	margin-bottom:0px;
+}

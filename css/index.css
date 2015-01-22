@@ -1,14 +1,7 @@
 .smallImg{
 	height:25px;
 }
-.jumboImg{
-	height:100px;
-	float:left;
-}
-.hackIntro{
-	position: relative;
-	left: 15px;
-}
+
 .demoVideo{
 	display: block;
 	margin-left: auto;
@@ -17,4 +10,14 @@
 
 	border:1px solid #ccc;
 	border-radius: 4px;
+}
+.jumbotron{
+	padding:20px;
+}
+#imgSandbox{
+	height:100px;
+	float:left;
+}
+#jumboText{
+	text-align: center;
 }
